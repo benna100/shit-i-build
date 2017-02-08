@@ -28,5 +28,3 @@ With my new blog based [Airspace](http://jekyllthemes.org/themes/airspace/) i to
 
 
 Awesome!!11!!1
-
-
