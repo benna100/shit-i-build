@@ -9,6 +9,7 @@ permalink: /
 <div class="post-area main-container">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p class="post-date">Time to implement: <b>{{ post.time-to-implement}}</b></p>
   <p>
     {{ post.content | strip_html | truncatewords: 25 }}
   </p>
