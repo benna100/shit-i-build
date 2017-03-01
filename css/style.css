@@ -33,7 +33,7 @@
 }
 
 .main-container {
-    width: 90%;
+    width: 95%;
     max-width: 610px;
     margin: 0 auto;
 }
@@ -42,6 +42,13 @@
     font-size: 16em;
     line-height: 1em;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-header {
+        font-size: 7em;
+    }
 }
 
 .blog-header a {
