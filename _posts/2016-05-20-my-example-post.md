@@ -10,13 +10,13 @@ So [Jekyll](https://jekyllrb.com/) is this very cool tool that creates static pa
 It works by using template files to create actual static pages, a little bit like [Handlebars](http://handlebarsjs.com/). So input is a template files and posts written in a language called Markdown and out comes a generated static page. 
 
 An example of a written post in markdown:
-![drawing]({{ site.url }}/{{ site.baseurl }}/img/jekyll-post.png)
+![drawing]({{ site.baseurl }}/img/jekyll-post.png)
 
 An example of a post template:
-![drawing]({{ site.url }}/{{ site.baseurl }}/img/jekyll-post-template.png)
+![drawing]({{ site.baseurl }}/img/jekyll-post-template.png)
 
 With the two above files this is the output:
-![drawing]({{ site.url }}/{{ site.baseurl }}/img/jekyll-output.png)
+![drawing]({{ site.baseurl }}/img/jekyll-output.png)
 
 ## Creating this blog ##
 
